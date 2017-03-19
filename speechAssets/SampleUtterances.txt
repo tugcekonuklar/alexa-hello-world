@@ -1,0 +1,5 @@
+HelloWorldIntent say hello {userName}
+HelloWorldIntent say {userName}
+HelloWorldIntent say hello {userName}
+HelloWorldIntent use my name {userName}
+HelloWorldIntent say hi {userName}
