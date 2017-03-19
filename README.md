@@ -1,2 +1,2 @@
 # alexaHelloWorld
-Alexa Echo Hello World
+Amazon Echo Hello World
