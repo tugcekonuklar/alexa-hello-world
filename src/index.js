@@ -63,7 +63,7 @@ HelloWorld.prototype.eventHandlers.onSessionEnded = function (sessionEndedReques
 
 HelloWorld.prototype.intentHandlers = {
     "HelloWorldIntent": function (intent, session, response) {
-        response.tellWithCard("Hello " + intent.slots.userName, "Hello " + intent.slots.userName , "Hello " + intent.slots.userName);
+        response.tellWithCard("Hello " + intent.slots.userName.value.value, "Hello " + intent.slots.userName.value , "Hello " + intent.slots.userName.value);
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
         response.ask("You can say hello to me!", "You can say hello to me!");
